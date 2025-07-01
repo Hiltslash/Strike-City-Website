@@ -1,0 +1,56 @@
+{
+    "Hiltslash": {
+        "accINFO": {
+            "username": "Hiltslash",
+            "iname": "Beau Davidson",
+            "password": "1XX",
+            "id": 2,
+            "promode": true,
+            "admin": true
+        },
+        "psicoins": 1000,
+        "completed_missions": [],
+        "inventory": [],
+        "equipped": [],
+        "kdr": 0,
+        "cLives": 3,
+        "nLives": 5,
+        "faction": "Psilight"
+    },
+    "A. Royal": {
+        "accINFO": {
+            "username": "A. Royal",
+            "iname": "Andrew",
+            "password": "wmp",
+            "id": 3,
+            "promode": false,
+            "admin": false
+        },
+        "psicoins": 550,
+        "completed_missions": [],
+        "inventory": ["Begginer's Bow"],
+        "equipped": [],
+        "kdr": 0,
+        "cLives": 3,
+        "nLives": 5,
+        "faction": "Skylight"
+    },
+    "Rilo": {
+        "accINFO": {
+            "username": "Rilo",
+            "iname": "Noelle",
+            "password": "wert35",
+            "id": 4,
+            "promode": false,
+            "admin": false
+        },
+        "psicoins": 550,
+        "completed_missions": [],
+        "inventory": ["Throwing Knives"],
+        "equipped": [0],
+        "kdr": 0,
+        "cLives": 3,
+        "nLives": 5,
+        "faction": "Void"
+    }
+}

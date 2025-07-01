@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - {{username}}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div>
+        <h1>Strike City Dashboard</h1>
+        <h3>Welcome, {{username}}</h3>
+        <h3>Psicoins: {{uDATA[username]["psicoins"]}}</h3>
+        <button onclick="dispACC()">Toggle Account Info</button>
+        {% if uDATA[username]["accINFO"]["admin"] %}
+        <button onclick="dispAdmin()">Toggle Admin Panel</button>
+        {% endif %}
+    </div>
+
+    <div id="dispACCINFO" style="display: none;">
+        <p>Username: {{ username }}</p>
+        <p>Password: {{ uDATA[username]["accINFO"]["password"] }}</p>
+    </div>
+
+    <div id="dispAdmin" style="display: none;">
+        <form method="post">
+            <input type="hidden" name="formType" value="adminPanelWeapon">
+        </form>
+    </div>
+
+    <div id="BattleLOG">
+        <form method="post">
+            {% if error %}
+            <p>{{ error }}</p>
+            {% endif %}
+            <input type="hidden" name="formType" value="BattleLOG">
+            <input type="hidden" name="user" value="{{ username }}">
+
+            <p style="display: inline;">Opponent:</p>
+            <input style="display: inline;" type="text" name="opp" placeholder="Opponent" required>
+            <br>
+
+            <p style="display: inline;">Battle Type</p>
+            <select style="display: inline;" name="btype" required>
+                <option value="normal">Normal</option>
+                <option value="allout">Allout</option>
+                <option value="cannon">Cannon</option>
+                <option value="custom">Custom</option>
+            </select>
+            <br>
+
+            <p style="display: inline;">Did you win?</p>
+            <label><input type="radio" name="status" value="true" required> Yes</label>
+            <label><input type="radio" name="status" value="false"> No</label>
+            <br>
+
+            <p style="display: inline;">Custom amount to send</p>
+            <input style="display: inline;" type="number" name="cmoneytransfer" placeholder="***">
+            <p style="color: grey;">*** Only use for custom amounts!!</p>
+
+            <input type="submit" value="Log">
+        </form>
+    </div>
+
+    <div>
+        <h2>Stats</h2>
+        {% if uDATA[username]["accINFO"]["promode"] %}
+        <h3 class="s">KDR:</h3>
+        <h3 class="s">{{uDATA[username]["kdr"]}}</h3>
+        {% else %}
+        <h3 class="s">Kill/Death Ratio:</h3>
+        <h3 class="s">{{uDATA[username]["kdr"]}}</h3>
+        {% endif %}
+        <br>
+        <h3 class="s">Psicoins: {{uDATA[username]["psicoins"]}}</h3>
+        <br>
+        <h3 class="s">Faction: {{uDATA[username]["faction"]}}</h3>
+        <br>
+        <h3 class="s">Cannon Lives Remaining: {{uDATA[username]["cLives"]}}</h3>
+        <br>
+        <h3 class="s">Normal Lives Remaining: {{uDATA[username]["nLives"]}}</h3>
+    </div>
+
+    <div>
+        <button onclick="window.location = '/'">Log Out</button>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

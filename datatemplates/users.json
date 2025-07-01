@@ -1,0 +1,24 @@
+{
+    "username": {
+        
+        "accINFO": {
+            "username": "username",
+            "iname": "real name",
+            "password": "1XX",
+            "id": 0,
+            "promode": false,
+            "admin": false
+        },
+        
+        "psicoins": 100,
+        "completed_missions": [],
+        "inventory": [
+        ],
+        "equipped": [
+        ],
+        "kdr": 0,
+        "cLives": 3,
+        "nLives": 5,
+        "faction": "faction"
+    }
+}

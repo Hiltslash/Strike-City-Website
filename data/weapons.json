@@ -1,0 +1,165 @@
+{
+  "X-bow": {
+    "name": "X-bow",
+    "Cost": "1400",
+    "ATK/DEF": "72",
+    "Special": "Split",
+    "Rarity": "Rare",
+    "Type": "Bow",
+    "Faction": "Sky/psillight"
+  },
+  "Begginer's Bow": {
+    "name": "Begginer's Bow",
+    "Cost": "450",
+    "ATK/DEF": "20",
+    "Special": "Split",
+    "Rarity": "Common",
+    "Type": "Bow",
+    "Faction": "Skylight"
+  },
+  "Explodiblade": {
+    "name": "Explodiblade",
+    "Cost": "1600",
+    "ATK/DEF": "65",
+    "Special": "Flameburst",
+    "Rarity": "Rare",
+    "Type": "Sword",
+    "Faction": "Psillight/Inferno"
+  },
+  "Hex Blade": {
+    "name": "Hex Blade",
+    "Cost": "1600",
+    "ATK/DEF": "70",
+    "Special": "Crosses",
+    "Rarity": "Rare",
+    "Type": "Sword",
+    "Faction": "Psillight"
+  },
+  "SL-100": {
+    "name": "SL-100",
+    "Cost": "600",
+    "ATK/DEF": "45",
+    "Special": "None",
+    "Rarity": "Common",
+    "Type": "Sword",
+    "Faction": "Psillight"
+  },
+  "Lynish A1": {
+    "name": "Lynish A1",
+    "Cost": "1000",
+    "ATK/DEF": "55",
+    "Special": "Split",
+    "Rarity": "Uncommon",
+    "Type": "Bow",
+    "Faction": "Skylight"
+  },
+  "Lynish A2": {
+    "name": "Lynish A2",
+    "Cost": "1200+permission",
+    "ATK/DEF": "65",
+    "Special": "Split",
+    "Rarity": "Rare",
+    "Type": "Bow",
+    "Faction": "Skylight"
+  },
+  "Lynish A1M": {
+    "name": "Lynish A1M",
+    "Cost": "1500+permission",
+    "ATK/DEF": "80",
+    "Special": "Split, Flameburst, AutoAim",
+    "Rarity": "Super Rare",
+    "Type": "Bow",
+    "Faction": "Skylight"
+  },
+  "SL-500": {
+    "name": "SL-500",
+    "Cost": "1200",
+    "ATK/DEF": "60",
+    "Special": "Loyalty",
+    "Rarity": "Uncommon",
+    "Type": "Sword",
+    "Faction": "Psillight"
+  },
+  "SLM": {
+    "name": "SLM",
+    "Cost": "1200+permission",
+    "ATK/DEF": "85",
+    "Special": "Loyalty, Blackshot",
+    "Rarity": "V. Rare",
+    "Type": "Sword",
+    "Faction": "Psillight"
+  },
+  "Vinestone Mace": {
+    "name": "Vinestone Mace",
+    "Cost": "1400",
+    "ATK/DEF": "70",
+    "Special": "Earthquake",
+    "Rarity": "Uncommon",
+    "Type": "Mace",
+    "Faction": "Lifeform"
+  },
+  "The Axe of Peace": {
+    "name": "The Axe of Peace",
+    "Cost": "1900+justice medal",
+    "ATK/DEF": "80",
+    "Special": "Fire Aspect, Death's Bane",
+    "Rarity": "Rare",
+    "Type": "Axe",
+    "Faction": "Inferno"
+  },
+  "Jade Trident": {
+    "name": "Jade Trident",
+    "Cost": "1300",
+    "ATK/DEF": "65",
+    "Special": "Loyalty, Water Channel",
+    "Rarity": "Uncommon",
+    "Type": "Trident",
+    "Faction": "Riptide"
+  },
+  "Pearlite Trident": {
+    "name": "Pearlite Trident",
+    "Cost": "1700",
+    "ATK/DEF": "75",
+    "Special": "Loyalty, Water Channel, Winter Blaze",
+    "Rarity": "Rare",
+    "Type": "Trident",
+    "Faction": "Riptide"
+  },
+  "Hellstone Axe": {
+    "name": "Hellstone Axe",
+    "Cost": "900",
+    "ATK/DEF": "55",
+    "Special": "Fire Aspect",
+    "Rarity": "Common",
+    "Type": "Axe",
+    "Faction": "Inferno"
+  },
+  "Shadow Daggers": {
+    "name": "Shadow Daggers",
+    "Cost": "650",
+    "ATK/DEF": "40",
+    "Special": "Vanish",
+    "Rarity": "Uncommon",
+    "Type": "Dagger",
+    "Faction": "Void"
+  },
+  "Throwing Knives": {
+    "name": "Throwing Knives",
+    "Cost": "450",
+    "ATK/DEF": "40",
+    "Special": "Vamprism",
+    "Rarity": "Common",
+    "Type": "Knives",
+    "Faction": "Void"
+  },
+
+  "Unity Gauntlets": {
+    "name": "Unity Gauntlets",
+    "Cost": "2500 + All 6 skystones + Hybrid Cannon Life",
+    "ATK/DEF": "150",
+    "Special": "Hyperbeam, Vanish, Rocket, Loyalty, Water Channel, Earthquake, Flameburst, Split, Autoaim, Blackshot",
+    "Rarity": "Only 1",
+    "Type": "Gauntlets",
+    "Faction": "ALL"
+  }
+}
