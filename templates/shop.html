@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop - {{username}}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Weapon Shop</h1>
+    {% if message %}
+        <div class="message">{{ message }}</div>
+    {% endif %}
+    <div class="user-info">
+        <strong>User:</strong> {{ username }}<br>
+        <strong>Psicoins:</strong> {{ user.psicoins }}<br>
+        <strong>Owned Weapons:</strong>
+        {% if user.inventory and user.inventory|length > 0 %}
+            {% for wid in user.inventory %}
+                {{ weapons.values()|selectattr('id', 'equalto', wid)|map(attribute='name')|list|first }}{% if not loop.last %}, {% endif %}
+            {% endfor %}
+        {% else %}
+            None
+        {% endif %}
+    </div>
+    <div>
+        <button onclick="window.location = '/dashboard'">Back</button>
+    </div>
+    <hr>
+    <form method="post">
+        <table class="shop-table">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Type</th>
+                    <th>ATK/DEF</th>
+                    <th>Special</th>
+                    <th>Rarity</th>
+                    <th>Faction</th>
+                    <th>Cost</th>
+                    <th>Buy</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for w in weapons.values() %}
+                <tr>
+                    <td>{{ w.name }}</td>
+                    <td>{{ w.Type }}</td>
+                    <td>{{ w['ATK/DEF'] }}</td>
+                    <td>{{ w.Special }}</td>
+                    <td>{{ w.Rarity }}</td>
+                    <td>{{ w.Faction }}</td>
+                    <td>{{ w.Cost }}</td>
+                    <td>
+                        {% if user.inventory and w.id in user.inventory %}
+                            Owned
+                        {% else %}
+                            <button type="submit" name="weapon_id" value="{{ w.id }}">Buy</button>
+                        {% endif %}
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </form>
+</body>
+</html>

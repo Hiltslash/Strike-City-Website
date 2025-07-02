@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strike City Chatroom</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div>
+        <h1>Member Chatroom</h1>
+        <form method="post">
+            <input id="chat-input" type="text" name="message" placeholder="Type your message..." required style="width:70%;">
+            <button type="submit">Send</button>
+        </form>
+        <hr>
+        <div id="chat-messages">
+            {% for message in chathistory %}
+               <p><strong>{{message.sender}}</strong>: {{message.message}}</p>
+            {% endfor %}
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename='chat.js') }}"></script>
+    <script>
+        window.onload = function() {
+            var chatInput = document.getElementById('chat-input');
+            if (chatInput) {
+                chatInput.focus();
+            }
+        };
+    </script>
+</body>
+</html>

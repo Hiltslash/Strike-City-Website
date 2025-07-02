@@ -8,10 +8,31 @@
             "promode": true,
             "admin": true
         },
-        "psicoins": 1000,
+        "psicoins": 999999977449,
         "completed_missions": [],
-        "inventory": [],
-        "equipped": [],
+        "inventory": [
+            "s100",
+            "xbow",
+            "bgbw",
+            "exbl",
+            "hexb",
+            "lya1",
+            "s500",
+            "vmac",
+            "sslm",
+            "lyam",
+            "lya2",
+            "aop",
+            "utgs",
+            "hela",
+            "ptdt",
+            "jtdt",
+            "shdg",
+            "tkni"
+        ],
+        "equipped": [
+            4
+        ],
         "kdr": 0,
         "cLives": 3,
         "nLives": 5,
@@ -28,8 +49,12 @@
         },
         "psicoins": 550,
         "completed_missions": [],
-        "inventory": ["Begginer's Bow"],
-        "equipped": [],
+        "inventory": [
+            "bgbw"
+        ],
+        "equipped": [
+            0
+        ],
         "kdr": 0,
         "cLives": 3,
         "nLives": 5,
@@ -46,8 +71,12 @@
         },
         "psicoins": 550,
         "completed_missions": [],
-        "inventory": ["Throwing Knives"],
-        "equipped": [0],
+        "inventory": [
+            "tkni"
+        ],
+        "equipped": [
+            0
+        ],
         "kdr": 0,
         "cLives": 3,
         "nLives": 5,

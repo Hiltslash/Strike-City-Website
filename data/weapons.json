@@ -1,5 +1,6 @@
 {
   "X-bow": {
+    "id": "xbow",
     "name": "X-bow",
     "Cost": "1400",
     "ATK/DEF": "72",
@@ -9,6 +10,7 @@
     "Faction": "Sky/psillight"
   },
   "Begginer's Bow": {
+    "id": "bgbw",
     "name": "Begginer's Bow",
     "Cost": "450",
     "ATK/DEF": "20",
@@ -18,6 +20,7 @@
     "Faction": "Skylight"
   },
   "Explodiblade": {
+    "id": "exbl",
     "name": "Explodiblade",
     "Cost": "1600",
     "ATK/DEF": "65",
@@ -27,6 +30,7 @@
     "Faction": "Psillight/Inferno"
   },
   "Hex Blade": {
+    "id": "hexb",
     "name": "Hex Blade",
     "Cost": "1600",
     "ATK/DEF": "70",
@@ -36,6 +40,7 @@
     "Faction": "Psillight"
   },
   "SL-100": {
+    "id": "s100",
     "name": "SL-100",
     "Cost": "600",
     "ATK/DEF": "45",
@@ -45,6 +50,7 @@
     "Faction": "Psillight"
   },
   "Lynish A1": {
+    "id": "lya1",
     "name": "Lynish A1",
     "Cost": "1000",
     "ATK/DEF": "55",
@@ -54,6 +60,7 @@
     "Faction": "Skylight"
   },
   "Lynish A2": {
+    "id": "lya2",
     "name": "Lynish A2",
     "Cost": "1200+permission",
     "ATK/DEF": "65",
@@ -63,6 +70,7 @@
     "Faction": "Skylight"
   },
   "Lynish A1M": {
+    "id": "lyam",
     "name": "Lynish A1M",
     "Cost": "1500+permission",
     "ATK/DEF": "80",
@@ -72,6 +80,7 @@
     "Faction": "Skylight"
   },
   "SL-500": {
+    "id": "s500",
     "name": "SL-500",
     "Cost": "1200",
     "ATK/DEF": "60",
@@ -81,6 +90,7 @@
     "Faction": "Psillight"
   },
   "SLM": {
+    "id": "sslm",
     "name": "SLM",
     "Cost": "1200+permission",
     "ATK/DEF": "85",
@@ -90,6 +100,7 @@
     "Faction": "Psillight"
   },
   "Vinestone Mace": {
+    "id": "vmac",
     "name": "Vinestone Mace",
     "Cost": "1400",
     "ATK/DEF": "70",
@@ -99,6 +110,7 @@
     "Faction": "Lifeform"
   },
   "The Axe of Peace": {
+    "id": "aop",
     "name": "The Axe of Peace",
     "Cost": "1900+justice medal",
     "ATK/DEF": "80",
@@ -108,6 +120,7 @@
     "Faction": "Inferno"
   },
   "Jade Trident": {
+    "id": "jtdt",
     "name": "Jade Trident",
     "Cost": "1300",
     "ATK/DEF": "65",
@@ -117,6 +130,7 @@
     "Faction": "Riptide"
   },
   "Pearlite Trident": {
+    "id": "ptdt",
     "name": "Pearlite Trident",
     "Cost": "1700",
     "ATK/DEF": "75",
@@ -126,6 +140,7 @@
     "Faction": "Riptide"
   },
   "Hellstone Axe": {
+    "id": "hela",
     "name": "Hellstone Axe",
     "Cost": "900",
     "ATK/DEF": "55",
@@ -135,6 +150,7 @@
     "Faction": "Inferno"
   },
   "Shadow Daggers": {
+    "id": "shdg",
     "name": "Shadow Daggers",
     "Cost": "650",
     "ATK/DEF": "40",
@@ -144,6 +160,7 @@
     "Faction": "Void"
   },
   "Throwing Knives": {
+    "id": "tkni",
     "name": "Throwing Knives",
     "Cost": "450",
     "ATK/DEF": "40",
@@ -154,6 +171,7 @@
   },
 
   "Unity Gauntlets": {
+    "id": "utgs",
     "name": "Unity Gauntlets",
     "Cost": "2500 + All 6 skystones + Hybrid Cannon Life",
     "ATK/DEF": "150",
